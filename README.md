@@ -28,6 +28,8 @@ Para rodar a simulação
 
 ```bash
 export GAZEBO_MODEL_PATH=${PWD}/install/tello_gazebo/share/tello_gazebo/models/:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=${PWD}/dji_tello_ws/src/arena_models/:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=${PWD}/dji_tello_ws/src/arena_worlds/:$GAZEBO_MODEL_PATH
 ```
 
 2. Depois inicie a simulação
