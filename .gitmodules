@@ -1,0 +1,6 @@
+[submodule "src/tello_ros"]
+	path = src/tello_ros
+	url = https://github.com/MarceloJordao01/tello_ros.git
+[submodule "src/ros2_shared"]
+	path = src/ros2_shared
+	url = https://github.com/ptrmu/ros2_shared.git
